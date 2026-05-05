@@ -3,11 +3,13 @@ Linux Vulnerability Detector
 ## Problem Statement
 Linux kernel vulnerabilities can be difficult to detect and exploit, leading to security breaches and system compromises.
 ## Architecture
+
+
 ```mermaid
 graph LR
-A[Linux Kernel] -->|scan|> B(Vulnerability Detector)
-B -->|report|> C[Security Team]
-```
+    A[Linux Kernel] -->|scan| B(Vulnerability Detector)
+    B -->|report| C[Security Team]
+
 ## Project Structure
 ```
 linux-vuln-detector/
